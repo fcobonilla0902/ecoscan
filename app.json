@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "EcoScan",
+    "slug": "ecoscan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "EcoScan usa la cámara para escanear códigos de barras y fotografiar residuos.",
+        "NSLocationWhenInUseUsageDescription": "EcoScan usa tu ubicación para mostrar centros de reciclaje cercanos.",
+        "NSMotionUsageDescription": "EcoScan usa los sensores de movimiento para la realidad aumentada."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-sensors"
+    ]
+  }
+}
